@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 4rem;
+  margin-right: 3rem;
+}
+header{
+  margin: 2rem;
+  margin-right: 30px;
+  
+}
+#languages{
+  margin-left: 15px;
+  font-size: 15.5px;
+  font-weight: 550;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img{
+  width: 130px;
+  height: 100px;
+  margin-left: 60px;
+}
+.header .otherpart{
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+.header .otherpart .navheader a{
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.header .otherpart .signup{
+  height: 40px;
+  width: 100px;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: .5rem;
+  border: 2px solid black;
+  margin-right: 15px;
+  text-align: center;
+  font-weight: 550;
+}
+
+.header .otherpart .signup:hover {
+  background-color: #f0f0f0; 
+  color: #000; 
+}
+
+
+.header select:hover {
+  background-color: #f0f0f0; 
+  color: #000; 
+}
+
+
+.header .otherpart .signup p{
+  margin: 5px;
+}
+
+.header select{
+  border: none;
+  outline:none;
+  font-size: 1.5rem;
+}
+.br {margin-bottom: 12em}
+
+
+
+section .row{
+  margin-top: 80px;
+  display: flex;
+ justify-content: space-evenly;
+ margin-left: 100px;
+
+}
+
+.row .image img{
+  width: 88%;
+  height: 110%;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.row .content h5{
+  color:#E37C67;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.row .content h1{
+  color: rgb(10, 73, 94);
+  font-size: 80px;
+  margin: 0;
+  line-height: 0.9;
+}
+.row .content p{
+  font-size: 20px;
+  
+}
+
+.findout{
+  background-color: orange;
+  border:none;
+  color: white;
+  font-size: 1rem;
+  border-radius: .5rem;
+  padding: .5rem;
+  width:140px;
+  height:60px;
+  font-weight: 550;
+  box-shadow: 0px 3px 8px rgb(255,173,1);
+}
+
+.category .crow{
+  display: flex;
+  gap: 1rem;
+  margin-left: 100px;
+}
+.ccard .sep img{
+  height: 5rem;
+}
+.crow .ccard{ 
+  background-color: white;
+  padding: 2rem 1rem 0 1rem;
+  width: 200px;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-left: 28px;
+  justify-content: center;
+}
+
+
+.ccard:hover{
+  border-radius: 2rem ;
+  background-color: #ffffff;
+  box-shadow: 0px 1.08px 1.2px  rgb(123, 123, 123);
+}
+
+.category h1{
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+}
+.category h4{
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.ccard div{
+ text-align: center;
+}
+.ccard h2{
+text-align: center;
+}
+.ccard p{
+  text-align: center;
+  color: grey;
+}
+
+
+
+.destinations{
+  margin-top: 5rem;
+}
+.destinations h1{
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin:0 0 2rem 0;
+}
+#cheading{
+  font-weight: 500;
+}
+#cheading1{
+  font-weight: lighter;
+  
+}
+.destinations h4{
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.destinations .drow{
+  display: flex;
+  gap: 1rem;
+}
+
+.dcard{
+  width: 310px;
+  height: 10%;
+  border-radius: 1.5rem 2rem ;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-left: 1px;  
+}
+
+.dcard .dcardrow{
+  display: flex;
+  padding: 0 0rem 0 1rem;
+  justify-content: space-between;
+}
+
+.dcard img{
+  width: 310px;
+  height: 290px;
+  display: block;
+  margin-bottom: .5rem;
+  clip-path: inset(0 0 5% 0 round 10% 10% 0 0%);
+}
+
+
+.dcard .dcardp{
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ gap: .5rem;
+ margin-left: 1rem;
+}
+
+
+.brow{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 80px;
+}
+
+
+.bcontent p{
+  text-decoration:#5E6282 ;
+  margin:0;
+
+}
+.bcontent h6{
+  font-size: 2.3rem;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: Poppins,sans-serif; ;
+}
+
+.bcontent .binsiderow{
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.binsiderow p{
+  font-size: 0.9rem;
+  text-decoration:#5E6282;
+}
+
+.b2{
+  margin-top:5rem ;
+}
+.binsiderow p span{
+  color:#5E6282 ;
+  font-weight: bold;
+}
+
+.bcard{
+  padding: 1rem;
+  border-radius: 1.5rem;
+  height: 20rem;
+  position: relative;
+  margin-right: 10rem;
+  box-shadow: 10px -15px 50px lightblue;
+  z-index: 1;
+}
+
+.bcard .bp p span{
+  color: grey;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.bcardrow2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.bcardrow3{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 3;
+}
+
+.bcardrow2 i{
+  color: grey;
+}
+
+.samplecard{
+  height: 100px;
+}
+
+.samplecard{
+  padding: 1rem .5rem 0 1rem;
+  position: absolute;
+  z-index: 40;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 1.5rem;
+  margin-left: 10.7rem;
+  margin-top: -10rem;
+}
+
+.scrow{
+  display: flex;
+  align-items: start;
+  gap: 1.5rem;
+  margin-right: 10px;
+}
+
+.samplecardimage img{
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  zoom: 200%;
+}
+
+.samplecardcontent p,h4{
+  font-size: .7rem;
+  margin: 0;
+}
+
+.samplecardcontent p{
+  color: grey;
+  font-weight: 700;
+}
+
+
+.samplecardcontent p span
+{
+  color: rgb(152, 55, 221);
+}
+.samplecardcontent .sc2{
+  color: black;
+}
+.progress-container progress{
+  color: #8A79DF;
+}
+
+
+footer .ending{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 120px;
+  padding-left:5px ;
+  
+}
+.ending .one{
+  margin-top:-20px;
+  margin-left: 30px;
+}
+
+.ending .one1{
+  margin-top:-5px;
+  font-size: 12px;
+}
+
+.fiverow{
+  display: flex;
+  gap: .5rem;
+  justify-content: space-around;
+  margin-left:-65px;
+  border-radius: 3rem;
+}
+.storecard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.storecard{
+  padding-right: -4px;
+  height: 0px;
+  width: 0px;
+  border-radius: -3rem;
+  background-color: black;
+}
+
+.ending p{
+  color: grey;
+  font-weight: 600;
+}
+.ending h1{
+  font-size: 1.5rem;
+}
+
+
+.circle {
+  width: 40px; 
+  height: 40px; 
+  background-color: #ffffff; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.instagram-logo {
+  width: 20px; 
+}
+
+.fiver1{
+  gap: 1rem;
+  display: flex;
+}
+
+.five{
+  margin-top: 2rem;
+}
+
+footer .footending{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 65px;
+  text-align: center;
+  color: grey;
+  font-weight: 600;
+}
+
+
+
+.subscribe .twobox{
+  z-index: 3;
+  position: absolute;
+  margin-left: 88%;
+  margin-top: -18px;
+  text-align: center;
+}
+.subscribe .mainbox{
+  width: 96%;
+  height: 18rem;
+  background-color: rgba(207, 205, 244, 0.23);
+  position: relative;
+  z-index: 2;
+  border-radius: 6rem 1rem 1rem 1rem;
+  margin-top: -3rem;
+  margin-left: 30px;
+  overflow: hidden;
+  
+}
+
+
+.subscribe .threebox{
+  transform: rotate(-270deg);
+  position: absolute;
+  z-index: 1;
+  margin-left: 86%;
+  margin-top: -1rem;
+}
+.category .threebox1{
+  position: absolute;
+  z-index: 1;
+  margin-left: 1280px;
+  margin-top: -110px;
+}
+
+.subscribe{
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+}
+.mainbox img{
+  margin-top: 100px;
+  height: 70%;
+  width: 30%;
+  position: relative;
+  z-index: 5;
+  opacity: 0.5;
+}
+
+.mainbox .img2{
+  transform: rotate(250deg);
+  height: 70%;
+  width: 30%;
+  margin-left: 74%;
+  margin-top: -30%;
+  display: block;
+  opacity: 0.5;
+  
+}
+
+.mainbox .mheading{
+  margin-left: 20%;
+  margin-top: 20px;
+  position: relative;
+  color:  rgb(75, 101, 128);
+  font-weight: bold;
+
+}
+
+.mainbox .mheading h4{
+  font-size: 2rem;
+  margin-top: -70px;
+  margin-left: 40px;
+  text-align: top;
+}
+
+.mainbox .mheading h5{
+  margin-left: 180px;
+  margin-top: .5rem;
+  font-size: 2rem;
+  text-align: top;
+}
+.whitebox{
+  margin-top: -3rem;
+  margin-left: 470px;
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 50px;
+  border-radius: .5rem;
+  background-color: white;
+  width: 250px;
+}
+
+.orangebox{
+  margin-top: -1.8rem;
+  margin-left: 770px;
+  border-radius: .5rem;
+  padding-left: 1.5rem;
+  width: 100px;
+  height: 50px;
+  background-color:#FF876A;
+  color: white;
+  display: flex;
+  align-items: center;  
+}

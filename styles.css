@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@media only screen and (min-width: 992px) {
 body{
   font-family: 'Poppins', sans-serif;
   margin-left: 4rem;
@@ -73,7 +74,7 @@ header{
   outline:none;
   font-size: 1.5rem;
 }
-.line-break {margin-bottom: 4em}
+.line-break {margin-bottom: 3em}
 
 
 
@@ -130,7 +131,7 @@ section .main-content-container{
 .body-cards .card-row{
   display: flex;
   gap: 2.2rem;
-  margin-left: 115px;
+  margin-left: 90px;
 }
 .body-card-row .body-card-row-separate img{
   height: 5rem;
@@ -202,11 +203,11 @@ section .main-content-container{
 }
 
 .row-card{
-  width: 330px;
+  width: 20.625rem;
   height: 20%;
   border-radius: 1.5rem 2rem ;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1); 
-  margin-left: 120px;
+  margin-left: 5rem;
   margin-right: -30px;
 }
 
@@ -220,10 +221,13 @@ section .main-content-container{
   margin-top: -10px;
   margin-left:5px;
 }
+.row{
+  margin-left: 3.2rem;
+}
 
 .row-card img{
-  width: 330px;
-  height: 300px;
+  width: 20.625rem;
+  height: 18.75rem;
   display: block;
   margin-bottom: .5rem;
   clip-path: inset(0 0 5% 0 round 10% 10% 0 0%);
@@ -243,11 +247,11 @@ section .main-content-container{
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
-  margin-left: 55px;
+  margin-left: 38px;
   margin-right: 80px;
 }
 .trip-text{
-  margin-left: 60px;
+  margin-left: 5.875rem;
 }
 
 .trip-text p{
@@ -401,7 +405,7 @@ footer .footer{
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
-  margin-right: 120px;
+  margin-right: 125px;
   padding-left:5px ;
   
 }
@@ -491,7 +495,7 @@ footer .footer-end{
   z-index: 3;
   position: absolute;
   margin-left: 81%;
-  margin-top: -18px;
+  margin-top: -12px;
   text-align: center;
 }
 .row-box .row-primary-box{
@@ -548,7 +552,7 @@ footer .footer-end{
 }
 
 .row-primary-box .row-box-heading{
-  margin-left: 15%;
+  margin-left: 12%;
   margin-top: -190px;
   position: relative;
   color:  rgb(75, 101, 128);
@@ -574,20 +578,26 @@ footer .footer-end{
 }
 .row-whitebox{
   margin-top: -3rem;
-  margin-left: 380px;
+  margin-left: 350px;
   padding-left: 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  height: 50px;
+  height:3.125rem;
   border-radius: .5rem;
   background-color: white;
-  width: 320px;
+  width: 20rem;
+}
+.no-border {
+  border: none;
+  border-radius:.5rem;
+  height:3rem;
+  width:20rem;
 }
 
 .row-orangebox{
   margin-top: 3rem;
-  margin-left: 47rem;
+  margin-left: 45rem;
   border-radius: .5rem;
   padding-left: 1.5rem;
   width: 100px;
@@ -597,93 +607,4 @@ footer .footer-end{
   display: flex;
   align-items: center;  
 }
-@media screen and (max-width: 768px) {
-  body {
-  max-width: 100%;
-  padding: 0 1rem;
-  }
-  
-  .header {
-  flex-direction: column;
-  align-items: flex-start;
-  }
-  
-  .header img {
-  margin-left: 0;
-  }
-  
-  .header .nav-container {
-  margin-right: 0;
-  }
-  
-  .header .nav-container .nav-links a {
-  margin-right: 0;
-  }
-  
-  .main-content-container {
-  flex-direction: column;
-  margin-left: 0;
-  }
-  
-  .main-content-container .main-image {
-  margin-right: 0;
-  margin-left: 0;
-  }
-  
-  .body-cards .card-row {
-  flex-wrap: wrap;
-  margin-left: 0;
-  }
-  
-  .body-card-row {
-  margin-left: 0;
-  margin-right: 0;
-  }
-  
-  .row-cards {
-  margin-top: 3rem;
-  }
-  
-  .row-card {
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  }
-  
-  .footer {
-  flex-direction: column;
-  align-items: center;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  }
-  
-  .footer-card {
-  flex-direction: column;
-  align-items: center;
-  margin-left: 0;
-  margin-right: 0;
-  }
-  
-  .footer-card-image {
-  height: 50px;
-  width: 50px;
-  }
-  
-  .footer-logo {
-  margin-bottom: 1rem;
-  }
-  
-  .footer-row-content {
-  flex-direction: column;
-  align-items: center;
-  }
-  
-  .footer-row {
-  margin-right: 0;
-  }
-  
-  .footer .footer-end {
-  margin-left: 0;
-  }
-  }
+}

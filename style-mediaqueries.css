@@ -1,0 +1,291 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4%;
+    margin-right: -86%;
+}
+  .services-cards .service-card {
+    display: flex;
+    gap: 2.2rem;
+    margin-left: 34px;
+    scale: 1;
+    flex-wrap: wrap;
+}
+.header .nav-container .nav-button {
+  height: 30px;
+  width: 85px;
+  font-size: .8rem;
+  margin-right: 15px;
+}
+.header .nav-container {
+  margin-right: -30px;
+  margin-left: -93px;
+}
+nav {
+  margin-right: -7rem;
+  scale: .6;
+}
+#drop-down {
+  margin-left: -6px;
+  font-size: smaller;
+}
+.header img {
+  margin-left: -60px;
+}
+.services-cards .service-sub-image {
+  position: relative;
+  margin-left: 565px;
+  margin-top: -181px;
+  scale: .6;
+}
+.main-content-container .main-content-text h1,h5 {
+  margin-left: -150px;
+}
+
+.subscribe-primary-box .subscribe-box-heading h5 {
+  margin-left: 5%;
+  margin-top: -5.29rem;
+  margin-right: -20rem;
+  scale: .6;
+}
+.row-whitebox {
+  margin-top: -6.5rem;
+  margin-left: 5rem;
+  scale: .6;
+  position: absolute;
+}
+.row-orangebox {
+  margin-top: -6.5rem;
+  margin-left: 22rem;
+  scale: .6;
+  position: absolute;
+}
+#main-para{
+  margin-left: -9rem;
+}
+.main-button {
+  margin-left: -128px;}
+.main-content-container .main-image img {
+    width: 130%;
+    height: 101%;
+    margin-left: -89px;
+    margin-right:-23rem;
+}
+.service-card-row p {
+  width: 9rem;
+  margin-left: 1rem;}
+
+.subscribe-box .subscribe-primary-box {
+  height: 10rem;
+  margin-top: -10rem;
+  margin-left: 44px;
+  margin-right: 59px;
+}
+.subscribe-box .subscribe-image {
+  margin-left: 33rem;
+  scale: .8;
+}
+.subscribe-box .subscribe-second-box {
+  margin-left: 68%;
+  margin-top: -25px;
+  scale: .6;
+}
+.subscribe-primary-box .subscribe-box-heading h4 {
+  margin-left: -14%;
+  margin-top: 8px;
+  scale: .6;
+}
+footer .footer {
+  margin-left: -69px;
+  margin-right: -30px;
+  padding-left: 0px;
+  margin-top:-5rem;
+}
+footer .footer-end {
+  margin-bottom: 2rem;
+  margin-left: 13px;}
+
+.trip-content {
+  margin-top: -3rem;}
+.trip-card-container {
+  margin-top: 9rem;
+  margin-right: -6rem;
+  margin-bottom: 18rem;
+  scale:.9;
+}
+.trip-text {
+  margin-left: -4.125rem;
+  scale:.9;
+}
+.trip-card {
+  margin-right: 8rem;}
+
+.row {
+    margin-left: -13.8rem;
+    scale: .6;
+}
+.destination-cards {
+  margin-top: 0rem;
+}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin-left: 22%;
+    margin-right: -235%;
+}
+  .services-cards .service-card {
+    gap: 1.5rem;
+    margin-left: 0;
+  }
+
+  .header .nav-container .nav-button {
+    width: 70px;
+    font-size: 0.7rem;
+    margin-right: 10px;
+  }
+
+  .header .nav-container {
+    margin-right: -10px;
+    margin-left: -20px;
+  }
+
+  nav {
+    margin-right: -5rem;
+    transform: scale(0.5);
+  }
+
+  #drop-down {
+    margin-left: -2px;
+    font-size: x-small;
+  }
+
+  .header img {
+    margin-left: -30px;
+  }
+
+  .services-cards .service-sub-image {
+    margin-left: 150px;
+    margin-top: -181px;
+    transform: scale(0.4);
+  }
+
+  .main-content-container .main-content-text h1,
+  .main-content-container .main-content-text h5 {
+    margin-left: -50px;
+  }
+
+  .subscribe-primary-box .subscribe-box-heading h5 {
+    margin-left: 23px;
+    margin-top: -3.4rem;
+    margin-right: -62px;
+    transform: scale(0.5);
+}
+
+  .subscribe-box .subscribe-second-box {
+    margin-left: 197%;
+    margin-top: -26px;
+    padding-left: 0rem;
+    scale:0.6;
+}
+.row-orangebox {
+  margin-top: 1.5rem;
+  margin-left: 29rem;
+  transform: scale(0.5);
+}
+#plus{
+  display: none;
+}
+  .subscribe-primary-box .subscribe-box-heading {
+    margin-top: -103px;
+}
+  .destination-cards .row {
+    display: flex;
+    gap: -1.5rem;
+    scale: 1.3;
+    margin-right: 11rem;
+}
+
+.row-whitebox {
+  margin-top: -3.1rem;
+  margin-left: 14rem;
+  transform: scale(0.5);
+}
+
+  #main-para {
+    margin-left: -4rem;
+  }
+
+  .main-button {
+    margin-left: -60px;
+  }
+
+  .main-content-container .main-image img {
+    width: 120%;
+    height: 101%;
+    margin-left: -39px;
+    margin-right: -13rem;
+  }
+
+  .service-card-row p {
+    width: 6rem;
+    margin-left: 1rem;
+  }
+
+  .subscribe-box .subscribe-primary-box {
+    height: 8rem;
+    margin-top: -8rem;
+    margin-left: 22px;
+    margin-right: 30px;
+  }
+
+  .subscribe-box .subscribe-image {
+    margin-left: 15rem;
+    transform: scale(0.7);
+  }
+  .subscribe-primary-box .subscribe-box-heading h4 {
+    margin-left: 11px;
+    margin-top: 68px;
+    transform: scale(0.5);
+  }
+
+  footer .footer {
+    margin-left: -34px;
+    margin-right: 4px;
+    padding-left: 0px;
+    margin-top: -3rem;
+  }
+
+  footer .footer-end {
+    margin-bottom: 1rem;
+    margin-left: 6px;
+  }
+
+  .trip-content {
+    margin-top: -2rem;
+  }
+
+  .trip-card-container {
+    margin-top: 6rem;
+    margin-right: -3rem;
+    margin-bottom: 14rem;
+    transform: scale(0.7);
+  }
+
+  .trip-text {
+    margin-left: -3rem;
+    transform: scale(0.7);
+  }
+
+  .trip-card {
+    margin-right: 5rem;
+  }
+
+  .row {
+    margin-left: -6.9rem;
+    transform: scale(0.5);
+  }
+
+  .destination-cards {
+    margin-top: 0rem;
+  }
+}
